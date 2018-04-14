@@ -1,10 +1,3 @@
-# demo_download_file
-
-##	实现文件下载
-
-   下面是一个简单的实现文件下载功能的代码：
-
-```kotlin
 package com.easy.springboot.demo_download_file
 
 import org.springframework.core.io.FileSystemResource
@@ -37,7 +30,5 @@ class DownloadController {
     }
 
 }
-```
 
-其中，contentType()方法中设置文件类型为application/octet-stream，从而以流的形式下载文件，这样可以实现任意格式的文件下载。
-浏览器访问http://127.0.0.1:8080/download?log=demo_logging，可以实现本机 /Users/jack/logs/demo_logging 文件的下载。
+//http://127.0.0.1:8080/download?log=demo_logging
